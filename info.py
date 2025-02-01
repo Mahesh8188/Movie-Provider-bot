@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '26741021'))
-API_HASH = environ.get('API_HASH', '7c5af0b88c33d2f5cce8df5d82eb2a94')
+API_ID = int(environ.get('API_ID', '23157213'))
+API_HASH = environ.get('API_HASH', 'a6b46c6dd8cd227a603304e8ff83d3af')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'linkpays.in'))
-STREAM_API = (environ.get('STREAM_API', 'de20394ac3c17f42a2a636168dd67df9820047c9'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/vegamoviesnewin'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'sushilurl.com'))
+STREAM_API = (environ.get('STREAM_API', '28db04133d09c9d717ba2dba016ee8bee6f61f31'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+UJLRSyHZ6X9iYzg1'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6859451629 7386197638').split()]
@@ -57,26 +57,26 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
 # Verify/token system
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 # HOWTOVERIFY = environ.get('HOWTOVERIFY', url='de20394ac3c17f42a2a636168dd67df9820047c9') 
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/vegamoviesnewin') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/+UJLRSyHZ6X9iYzg1') # How to open tutorial link for verification
 
 # Others
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkpays.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'de20394ac3c17f42a2a636168dd67df9820047c9')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'sushilurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '28db04133d09c9d717ba2dba016ee8bee6f61f31')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002429180034').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+A4tVZCXbK2s2YzJl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vegamoviesnewin')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/vegamoviesnewin') # Tutorial video link for opening shortlink website 
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+gL4Sp5oyFrJkODg1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+UJLRSyHZ6X9iYzg1')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+UJLRSyHZ6X9iYzg1') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : vegamoviesTeam')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : filmy_babu')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084819782')) #Log channel id ( make sure bot is admin )
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/akDiscussion_group') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+gL4Sp5oyFrJkODg1') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
